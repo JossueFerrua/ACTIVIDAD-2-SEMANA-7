@@ -21,7 +21,7 @@
       if (opcion < OPCION_MIN || opcion > OPCION_MAX)
 
       {
-          Console.WriteLine("\n❌ Opción no válida. Por favor, ingrese 1, 2 o 3.");
+          Console.WriteLine("\n Opción no válida. Por favor, ingrese 1, 2 o 3.");
       }
 
   } while (opcion < OPCION_MIN || opcion > OPCION_MAX);
