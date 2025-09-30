@@ -1,1 +1,19 @@
-go 
+Ejercicio 1: 
+
+while (op != -1) {
+    Console.Write($"Ingrese nota {cont+1}: ");
+    a = Convert.ToInt32(Console.ReadLine());
+
+    suma = suma + a;
+    cont++;
+
+    Console.Write("Desea Continuar? (0 para SI / -1 para NO): ");
+    op = Convert.ToInt32(Console.ReadLine());
+    
+}
+
+double prom = (double)suma / cont;
+
+Console.WriteLine($"\n--> La suma total es {suma}");
+Console.WriteLine($"--> El promedio total es {prom}");
+Console.WriteLine($"--> El total de numeros ingresados es {cont}");
